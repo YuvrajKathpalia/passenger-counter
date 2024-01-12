@@ -1,13 +1,11 @@
 body {
     background-image: url("jon-tyson-XZgRKEwuXl4-unsplash.jpg");
-    background-size:cover;     /*auto,contain(2 cat ari left,right),cover hote h */
+    background-size:cover;    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: oblique;
     text-align: center;
-    height:100vh;        /* This sets the height of the image to 100% of the viewport height*/ 
-}   /*..100vh= it will take up entire vertical height of user screen and wont be affected by content on screen*/
-
-
+    height:100vh;       
+}
 .container {
     background:beige;
     max-width: 80%;
@@ -15,14 +13,9 @@ body {
     border: 3px solid black;
     border-radius: 10px;
 }
-/*Setting margin: auto; essentially distributes the remaining space equally on the 
-left and right sides of the element, which achieves horizontal centering.
- This technique is often used in responsive design when you want a block-level 
-element to dynamically adjust its width based on the available space.*/
 
 h1 {      
-    /*people entered ke upar kitni jgh chodniaur neeche...margin chaaro trf
-    hoskta h na */
+   
     margin-top: 10px;
     margin-bottom: 10px;
     /*margin-left:2000px;*/
@@ -43,35 +36,20 @@ p{
 
 button {
     border: none;
-    
-    padding-top: 10px;       /*main cheeze to ye thi..defaultkum ari thi*/
-    padding-bottom: 10px;    /* button ke andar upar aur neeche kitna space
-                                 choda hai text kebad ya phle*/
-
-
+    padding-top: 10px;       
+    padding-bottom: 10px;    
     color:aquamarine;
     font-weight: bold;
-
-    margin-bottom: 10px;          /*iske neeche jo bhi chez aygi uskelie*/
-
-    border-radius: 100px;         /*curviness isse aari */
-    width: 250px;                /* default kum ari thi */
+    margin-bottom: 10px;          
+    border-radius: 100px;         
+    width: 250px;                
 }
 
-/* 2 button bnayge na 2 alg id bnadi..features same dono button ke
-color alag alag dena tha isliye id me alg s styling krre # lgake..*/
 #increment-btn {
-
-    background: darkred;
-                         /*transform:rotate(5deg);*/
-    
+  background: darkred;   
 }
-
 #save-btn{
     background: darkgreen;
-    
-    
-                            /* transform:rotate(-5deg);*/
 }
 
 #save-btn:hover{
